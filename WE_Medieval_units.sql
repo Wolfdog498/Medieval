@@ -80,8 +80,7 @@ VALUES ('UNIT_ZWEIHANDER', 0, 20, NULL, 0, 1, 0, 1, 0);
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_STRADIOT', 0, 20, NULL, 0, 1, 0, 1, 0);
 
---INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
-VALUES ('UNIT_CONDOTIERRE', 0, 20, NULL, 0, 1, 0, 1, 0);
+--INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly) VALUES ('UNIT_CONDOTIERRE', 0, 20, NULL, 0, 1, 0, 1, 0);
 
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_EARLY_KNIGHT', 0, 20, NULL, 0, 1, 0, 1, 0);
