@@ -82,7 +82,8 @@ VALUES ('UNIT_CONDOTIERRE', 0, 20, NULL, 0, 1, 0, 1, 0);
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_EARLY_KNIGHT', 0, 20, NULL, 0, 1, 0, 1, 0);
 
--- Unit Upgrades
+
+-- # Unit Upgrades #
 INSERT INTO UnitUpgrades
 		(Unit,						UpgradeUnit)
 VALUES	('UNIT_ZWEIHANDER',			'UNIT_MUSKETMAN'),
@@ -99,3 +100,14 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_HARQUEBUSIER' WHERE Unit = 'UNIT_MOU
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_HORSE_ARTILLERY' WHERE Unit = 'UNIT_HARQUEBUSIER';
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_STRADIOT' WHERE Unit = 'UNIT_COURSER';
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EARLY_KNIGHT' WHERE Unit = 'UNIT_ARMORED_HORSEMAN';
+
+
+-- # UnitReplaces #
+UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_KNIGHT'
+WHERE CivUniqueUnitType = 'UNIT_ARABIAN_MAMLUK';
+
+UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_ZWEIHANDER'
+WHERE CivUniqueUnitType = 'UNIT_JAPANESE_SAMURAI';
+
+UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_STRADIOT'
+WHERE CivUniqueUnitType = 'UNIT_HUNGARIAN_BLACK_ARMY' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_HUNGARIAN_BLACK_ARMY');
