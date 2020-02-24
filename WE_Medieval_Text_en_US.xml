@@ -3,7 +3,7 @@
 	<BaseGameText>
 		<!-- New Units Pedia Text -->
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ZWEIHANDER_CHAPTER_HISTORY_PARA_1">
-			<Text>The Zweihänder (German 'two-hander'), also Doppelhänder ('double-hander'), Beidhänder ('both-hander'), Bihänder or Bidenhänder, is a large two-handed sword primarily in use during the early decades of the 16th century. These swords represent the final stage in the trend of increasing size that started in the 14th century. In its developed form, the Zweihänder acquired the characteristics of a polearm rather than a sword due to their large size and weight and therefore increased range and striking power. Consequently, it was not carried in a sheath but across the shoulder like a halberd.</Text>
+			<Text>A man-at-arms was a soldier of the High Medieval to Renaissance periods who was typically well-versed in the use of arms and served as a fully armoured heavy cavalryman. A man-at-arms could be a knight or nobleman, a member of a knight or nobleman's retinue or a mercenary in a company under a mercenary captain. Such men could serve for pay or through a feudal obligation. The terms knight and man-at-arms are often used interchangeably, but while all knights equipped for war certainly were men-at-arms, not all men-at-arms were knights.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_ZWEIHANDER_CHAPTER_HISTORY_PARA_2">
 			<Text />
@@ -94,7 +94,7 @@
 		</Row>
 		<!-- New Units Text -->
 		<Row Tag="LOC_UNIT_ZWEIHANDER_NAME">
-			<Text>Heavy Longswordsman</Text>
+			<Text>Man-at-arms</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZWEIHANDER_DESCRIPTION">
 			<Text>High Medieval era melee unit.</Text>
