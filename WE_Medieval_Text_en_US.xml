@@ -63,7 +63,7 @@
 			<Text />
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CONDOTIERRE_CHAPTER_HISTORY_PARA_1">
-			<Text>Light Cavalry unit of the Renaissance era.</Text>
+			<Text>Condottieri were Italian captains contracted to command mercenary companies during the Middle Ages and multinational armies during the early modern period. They notably served European monarchs and Popes during the Italian Wars of the Renaissance and the European Wars of Religion. Notable condottieri include Prospero Colonna, Giovanni dalle Bande Nere, Cesare Borgia, Andrea Doria, the Duke of Parma, and the Marquis of Pescara.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CONDOTIERRE_CHAPTER_HISTORY_PARA_2">
 			<Text />
@@ -94,7 +94,7 @@
 		</Row>
 		<!-- New Units Text -->
 		<Row Tag="LOC_UNIT_ZWEIHANDER_NAME">
-			<Text>Two Handed Swordsman</Text>
+			<Text>Heavy Longswordsman</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZWEIHANDER_DESCRIPTION">
 			<Text>High Medieval era melee unit.</Text>
@@ -121,7 +121,7 @@
 			<Text>Early Knight</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EARLY_KNIGHT_DESCRIPTION">
-			<Text>Early Medieval era light cavalry unit.</Text>
+			<Text>Early Medieval era heavy cavalry unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_CONDOTIERRE_NAME">
 			<Text>Condotierre</Text>
