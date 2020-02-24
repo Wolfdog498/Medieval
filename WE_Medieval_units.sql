@@ -1,4 +1,4 @@
--- Unit Types
+-- # Unit Types #
 INSERT INTO Types
 		(Type,						Kind)
 VALUES	('UNIT_ZWEIHANDER',			'KIND_UNIT'),
@@ -8,7 +8,8 @@ VALUES	('UNIT_ZWEIHANDER',			'KIND_UNIT'),
 		('UNIT_CONDOTIERRE',		'KIND_UNIT'),
 		('UNIT_EARLY_KNIGHT',		'KIND_UNIT');
 
--- Unit AI Infos
+
+-- # Unit AI Infos #
 DELETE FROM UnitAIInfos WHERE UnitType = 'UNIT_HARQUEBUSIER' AND AiType = 'UNITAI_EXPLORE';
 DELETE FROM UnitAIInfos WHERE UnitType = 'UNIT_HARQUEBUSIER' AND AiType = 'UNITTYPE_MELEE';
 
@@ -41,7 +42,8 @@ VALUES	('UNIT_ZWEIHANDER',			'UNITAI_COMBAT'),
 		('UNIT_EARLY_KNIGHT',		'UNITTYPE_LAND_COMBAT'),
 		('UNIT_HARQUEBUSIER',		'UNITTYPE_RANGED');
 
--- Class Type Tags
+
+-- # Class Type Tags #
 INSERT INTO TypeTags
 		(Type,						Tag)
 VALUES	('UNIT_ZWEIHANDER',			'CLASS_MELEE'),
@@ -52,7 +54,8 @@ VALUES	('UNIT_ZWEIHANDER',			'CLASS_MELEE'),
 		('UNIT_EARLY_KNIGHT',		'CLASS_HEAVY_CAVALRY'),
 		('UNIT_HARQUEBUSIER',		'CLASS_RANGED');
 
--- Units
+
+-- # Units #
 INSERT INTO Units
 		(UnitType,					BaseMoves,	Cost,	AdvisorType,		BaseSightRange,	ZoneOfControl,	Domain,			FormationClass,					Name,								Description,								PurchaseYield,	PseudoYieldType,					PromotionClass,						Maintenance,	Combat,	RangedCombat,	Range,	Bombard,	StrategicResource,		PrereqTech,						MandatoryObsoleteTech,			CanTargetAir,	AntiAirCombat,	AirSlots,	IgnoreMoves,	Stackable,	PrereqDistrict,		CanCapture,	WMDCapable)
 VALUES	('UNIT_ZWEIHANDER',			2,			195,	'ADVISOR_CONQUEST',	2,				'1',			'DOMAIN_LAND',	'FORMATION_CLASS_LAND_COMBAT',	'LOC_UNIT_ZWEIHANDER_NAME',			'LOC_UNIT_ZWEIHANDER_DESCRIPTION',			'YIELD_GOLD',	null,								'PROMOTION_CLASS_MELEE',			3,				48,		0,				0,		0,			'RESOURCE_IRON',		'TECH_MILITARY_ENGINEERING',	'TECH_GUNPOWDER',				'0',			0,				0,			'0',			'0',		null,				'1',		'0'),
@@ -67,7 +70,8 @@ UPDATE Units SET PrereqTech = 'TECH_STIRRUPS' WHERE UnitType = 'UNIT_PIKEMAN';
 UPDATE Units SET PrereqTech = 'TECH_MILITARY_ENGINEERING' WHERE UnitType = 'UNIT_CROSSBOWMAN';
 UPDATE Units SET PrereqTech = 'TECH_MILITARY_TACTICS' WHERE UnitType = 'UNIT_COURSER';
 
---Units_XP2
+
+-- # Units_XP2 #
 CREATE TABLE IF NOT EXISTS Units_XP2 (UnitType VARCHAR, ResourceMaintenanceAmount INTEGER, ResourceCost INTEGER, ResourceMaintenanceType VARCHAR, TourismBomb INTEGER, CanEarnExperience BOOLEAN, TourismBombPossible BOOLEAN, CanFormMilitaryFormation BOOLEAN, MajorCivOnly BOOLEAN);
 
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
