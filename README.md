@@ -1,1 +1,1 @@
-# Medieval mod for Warfare Expmanded Complete Edition
+# Medieval mod for Warfare Expanded Complete Edition
