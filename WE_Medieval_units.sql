@@ -80,7 +80,8 @@ VALUES ('UNIT_ZWEIHANDER', 0, 20, NULL, 0, 1, 0, 1, 0);
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_STRADIOT', 0, 20, NULL, 0, 1, 0, 1, 0);
 
---INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly) VALUES ('UNIT_CONDOTIERRE', 0, 20, NULL, 0, 1, 0, 1, 0);
+--INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
+--VALUES ('UNIT_CONDOTIERRE', 0, 20, NULL, 0, 1, 0, 1, 0);
 
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_EARLY_KNIGHT', 0, 20, NULL, 0, 1, 0, 1, 0);
@@ -92,7 +93,7 @@ INSERT INTO UnitUpgrades
 VALUES	('UNIT_ZWEIHANDER',			'UNIT_MUSKETMAN'),
 		('UNIT_FEUDAL_SPEARMAN',	'UNIT_PIKEMAN'),
 		('UNIT_YEOMAN_ARCHER',		'UNIT_CROSSBOWMAN'),
-		('UNIT_STRADIOT',			'UNIT_HARQUEBUSIER'), -- delete whe adding UNIT_CONDOTIERRE
+		('UNIT_STRADIOT',			'UNIT_HARQUEBUSIER'), -- delete when adding UNIT_CONDOTIERRE
 		--('UNIT_STRADIOT',			'UNIT_CONDOTIERRE'),
 		--('UNIT_CONDOTIERRE',		'UNIT_CAVALRY'),
 		('UNIT_EARLY_KNIGHT',		'UNIT_KNIGHT');
@@ -113,5 +114,8 @@ WHERE CivUniqueUnitType = 'UNIT_ARABIAN_MAMLUK';
 UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_ZWEIHANDER'
 WHERE CivUniqueUnitType = 'UNIT_JAPANESE_SAMURAI';
 
+UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_ZWEIHANDER'
+WHERE CivUniqueUnitType = 'UNIT_GEORGIAN_KHEVSURETI' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_GEORGIAN_KHEVSURETI');
+
 UPDATE UnitReplaces SET ReplacesUnitType = 'UNIT_STRADIOT'
-WHERE CivUniqueUnitType = 'UNIT_HUNGARIAN_BLACK_ARMY' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_HUNGARIAN_BLACK_ARMY');
+WHERE CivUniqueUnitType = 'UNIT_HUNGARY_BLACK_ARMY' AND EXISTS (SELECT 1 FROM Units WHERE UnitType = 'UNIT_HUNGARY_BLACK_ARMY');
