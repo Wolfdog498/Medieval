@@ -4,8 +4,8 @@ INSERT INTO Types
 VALUES	('UNIT_ZWEIHANDER',			'KIND_UNIT'),
 		('UNIT_FEUDAL_SPEARMAN',	'KIND_UNIT'),
 		('UNIT_YEOMAN_ARCHER',		'KIND_UNIT'),
-		--('UNIT_STRADIOT',			'KIND_UNIT'),
 		('UNIT_CONDOTIERRE',		'KIND_UNIT'),
+		--('UNIT_STRADIOT',			'KIND_UNIT'),
 		('UNIT_EARLY_KNIGHT',		'KIND_UNIT');
 
 
@@ -26,16 +26,16 @@ VALUES	('UNIT_ZWEIHANDER',			'UNITAI_COMBAT'),
 		('UNIT_YEOMAN_ARCHER',		'UNITAI_COMBAT'),
 		('UNIT_YEOMAN_ARCHER',		'UNITTYPE_RANGED'),
 		('UNIT_YEOMAN_ARCHER',		'UNITTYPE_LAND_COMBAT'),
-		--('UNIT_STRADIOT',			'UNITAI_COMBAT'),
-		--('UNIT_STRADIOT',			'UNITAI_EXPLORE'),
-		--('UNIT_STRADIOT',			'UNITTYPE_CAVALRY'),
-		--('UNIT_STRADIOT',			'UNITTYPE_MELEE'),
-		--('UNIT_STRADIOT',			'UNITTYPE_LAND_COMBAT'),
 		('UNIT_CONDOTIERRE',		'UNITAI_COMBAT'),
 		('UNIT_CONDOTIERRE',		'UNITAI_EXPLORE'),
 		('UNIT_CONDOTIERRE',		'UNITTYPE_CAVALRY'),
 		('UNIT_CONDOTIERRE',		'UNITTYPE_MELEE'),
 		('UNIT_CONDOTIERRE',		'UNITTYPE_LAND_COMBAT'),
+		--('UNIT_STRADIOT',			'UNITAI_COMBAT'),
+		--('UNIT_STRADIOT',			'UNITAI_EXPLORE'),
+		--('UNIT_STRADIOT',			'UNITTYPE_CAVALRY'),
+		--('UNIT_STRADIOT',			'UNITTYPE_MELEE'),
+		--('UNIT_STRADIOT',			'UNITTYPE_LAND_COMBAT'),
 		--('UNIT_HARQUEBUSIER',		'UNITTYPE_RANGED'),
 		('UNIT_EARLY_KNIGHT',		'UNITAI_COMBAT'),
 		('UNIT_EARLY_KNIGHT',		'UNITTYPE_MELEE'),
@@ -49,8 +49,8 @@ INSERT INTO TypeTags
 VALUES	('UNIT_ZWEIHANDER',			'CLASS_MELEE'),
 		('UNIT_FEUDAL_SPEARMAN',	'CLASS_ANTI_CAVALRY'),
 		('UNIT_YEOMAN_ARCHER',		'CLASS_RANGED'),
-		--('UNIT_STRADIOT',			'CLASS_LIGHT_CAVALRY'),
 		('UNIT_CONDOTIERRE',		'CLASS_LIGHT_CAVALRY'),
+		--('UNIT_STRADIOT',			'CLASS_LIGHT_CAVALRY'),
 		--('UNIT_HARQUEBUSIER',		'CLASS_RANGED'),
 		('UNIT_EARLY_KNIGHT',		'CLASS_HEAVY_CAVALRY');
 
@@ -77,11 +77,11 @@ CREATE TABLE IF NOT EXISTS Units_XP2 (UnitType VARCHAR, ResourceMaintenanceAmoun
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_ZWEIHANDER', 0, 20, NULL, 0, 1, 0, 1, 0);
 
---INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
---VALUES ('UNIT_STRADIOT', 0, 20, NULL, 0, 1, 0, 1, 0);
-
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_CONDOTIERRE', 0, 20, NULL, 0, 1, 0, 1, 0);
+
+--INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
+--VALUES ('UNIT_STRADIOT', 0, 20, NULL, 0, 1, 0, 1, 0);
 
 INSERT INTO Units_XP2 (UnitType, ResourceMaintenanceAmount, ResourceCost, ResourceMaintenanceType, TourismBomb, CanEarnExperience, TourismBombPossible, CanFormMilitaryFormation, MajorCivOnly)
 VALUES ('UNIT_EARLY_KNIGHT', 0, 20, NULL, 0, 1, 0, 1, 0);
@@ -103,7 +103,7 @@ UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_FEUDAL_SPEARMAN' WHERE Unit = 'UNIT_
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_YEOMAN_ARCHER' WHERE Unit = 'UNIT_COMPOSITE_BOWMAN';
 --UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_HARQUEBUSIER' WHERE Unit = 'UNIT_MOUNTED_CROSSBOW';
 --UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_HORSE_ARTILLERY' WHERE Unit = 'UNIT_HARQUEBUSIER';
-UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_STRADIOT' WHERE Unit = 'UNIT_COURSER';
+UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_CONDOTIERRE' WHERE Unit = 'UNIT_COURSER';
 UPDATE UnitUpgrades SET UpgradeUnit = 'UNIT_EARLY_KNIGHT' WHERE Unit = 'UNIT_ARMORED_HORSEMAN';
 
 
