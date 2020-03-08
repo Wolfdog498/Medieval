@@ -47,21 +47,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_YEOMAN_ARCHER_CHAPTER_HISTORY_PARA_5">
 			<Text />
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_1">
-			<Text>he Stratioti or stradioti were mercenary units from the Balkans recruited mainly by states of southern and central Europe from the 15th century until the middle of the 18th century. The stratioti were pioneers of light cavalry tactics during this era. In the early 16th century heavy cavalry in the European armies was principally remodeled after Albanian stradioti of the Venetian army, Hungarian hussars and German mercenary cavalry units (Schwarzreiter).[33] They employed hit-and-run tactics, ambushes, feigned retreats and other complex maneuvers. In some ways, these tactics echoed those of the Ottoman sipahis and akinci. They had some notable successes also against French heavy cavalry during the Italian Wars.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_2">
-			<Text />
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_3">
-			<Text />
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_4">
-			<Text />
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_5">
-			<Text />
-		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CONDOTIERRE_CHAPTER_HISTORY_PARA_1">
 			<Text>Condottieri were Italian captains contracted to command mercenary companies during the Middle Ages and multinational armies during the early modern period. They notably served European monarchs and Popes during the Italian Wars of the Renaissance and the European Wars of Religion. Notable condottieri include Prospero Colonna, Giovanni dalle Bande Nere, Cesare Borgia, Andrea Doria, the Duke of Parma, and the Marquis of Pescara.</Text>
 		</Row>
@@ -75,6 +60,21 @@
 			<Text />
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CONDOTIERRE_CHAPTER_HISTORY_PARA_5">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_1">
+			<Text>he Stratioti or stradioti were mercenary units from the Balkans recruited mainly by states of southern and central Europe from the 15th century until the middle of the 18th century. The stratioti were pioneers of light cavalry tactics during this era. In the early 16th century heavy cavalry in the European armies was principally remodeled after Albanian stradioti of the Venetian army, Hungarian hussars and German mercenary cavalry units (Schwarzreiter).[33] They employed hit-and-run tactics, ambushes, feigned retreats and other complex maneuvers. In some ways, these tactics echoed those of the Ottoman sipahis and akinci. They had some notable successes also against French heavy cavalry during the Italian Wars.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_2">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_3">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_4">
+			<Text />
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_5">
 			<Text />
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EARLY_KNIGHT_CHAPTER_HISTORY_PARA_1">
@@ -111,23 +111,23 @@
 		<Row Tag="LOC_UNIT_YEOMAN_ARCHER_DESCRIPTION">
 			<Text>Early Medieval era ranged unit.</Text>
 		</Row>
+		<Row Tag="LOC_UNIT_CONDOTIERRE_NAME">
+			<Text>Condotierre</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_CONDOTIERRE_DESCRIPTION">
+			<Text>High Medieval era light cavalry unit.</Text>
+		</Row>
 		<Row Tag="LOC_UNIT_STRADIOT_NAME">
 			<Text>Stradiot</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_STRADIOT_DESCRIPTION">
-			<Text>High Medieval era light cavalry unit.</Text>
+			<Text>Renaissance era light cavalry unit.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EARLY_KNIGHT_NAME">
 			<Text>Early Knight</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EARLY_KNIGHT_DESCRIPTION">
 			<Text>Early Medieval era heavy cavalry unit.</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_CONDOTIERRE_NAME">
-			<Text>Condotierre</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_CONDOTIERRE_DESCRIPTION">
-			<Text>Renaissance era light cavalry unit.</Text>
 		</Row>
 		<!-- Text Changes -->
 		<Replace Tag="LOC_UNIT_KNIGHT_NAME">
