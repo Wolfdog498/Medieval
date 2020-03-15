@@ -26,12 +26,12 @@
 		<Row Name="ICON_UNIT_EARLY_KNIGHT_WHITE" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_WHITE"/>
 		<Row Name="ICON_UNIT_EARLY_KNIGHT_BLACK" Index="45" Atlas="ICON_ATLAS_UNIT_FLAG_SYMBOLS_BLACK"/>
 		<Replace>
-			<Name>ICON_UNIT_EARLY_KNIGHT_WHITE</Name>
+			<Name>ICON_UNIT_KNIGHT_WHITE</Name>
 			<Atlas>ICON_ATLAS_MISSING_UNITS</Atlas>
 			<Index>93</Index>
 		</Replace>
 		<Replace>
-			<Name>ICON_UNIT_EARLY_KNIGHT_BLACK</Name>
+			<Name>ICON_UNIT_KNIGHT_BLACK</Name>
 			<Atlas>ICON_ATLAS_MISSING_UNITS</Atlas>
 			<Index>93</Index>
 		</Replace>
