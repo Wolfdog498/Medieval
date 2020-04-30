@@ -62,21 +62,6 @@
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_CONDOTIERRE_CHAPTER_HISTORY_PARA_5">
 			<Text />
 		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_1">
-			<Text>he Stratioti or stradioti were mercenary units from the Balkans recruited mainly by states of southern and central Europe from the 15th century until the middle of the 18th century. The stratioti were pioneers of light cavalry tactics during this era. In the early 16th century heavy cavalry in the European armies was principally remodeled after Albanian stradioti of the Venetian army, Hungarian hussars and German mercenary cavalry units (Schwarzreiter).[33] They employed hit-and-run tactics, ambushes, feigned retreats and other complex maneuvers. In some ways, these tactics echoed those of the Ottoman sipahis and akinci. They had some notable successes also against French heavy cavalry during the Italian Wars.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_2">
-			<Text />
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_3">
-			<Text />
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_4">
-			<Text />
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STRADIOT_CHAPTER_HISTORY_PARA_5">
-			<Text />
-		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_EARLY_KNIGHT_CHAPTER_HISTORY_PARA_1">
 			<Text>The institution of knights was already well-established by the 10th century. While the knight was essentially a title denoting a military office, the term could also be used for positions of higher nobility such as landholders. The higher nobles grant the vassals their portions of land (fiefs) in return for their loyalty, protection, and service. The nobles also provided their knights with necessities, such as lodging, food, armour, weapons, horses, and money.[30] The knight generally held his lands by military tenure which was measured through military service that usually lasted 40 days a year. The military service was the quid pro quo for each knight's fief. Vassals and lords could maintain any number of knights, although knights with more military experience were those most sought after. Thus, all petty nobles intending to become prosperous knights needed a great deal of military experience.</Text>
 		</Row>
@@ -117,12 +102,6 @@
 		<Row Tag="LOC_UNIT_CONDOTIERRE_DESCRIPTION">
 			<Text>High Medieval era light cavalry unit.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_STRADIOT_NAME">
-			<Text>Stradiot</Text>
-		</Row>
-		<Row Tag="LOC_UNIT_STRADIOT_DESCRIPTION">
-			<Text>Renaissance era light cavalry unit.</Text>
-		</Row>
 		<Row Tag="LOC_UNIT_EARLY_KNIGHT_NAME">
 			<Text>Early Knight</Text>
 		</Row>
@@ -132,9 +111,6 @@
 		<!-- Text Changes -->
 		<Replace Tag="LOC_UNIT_KNIGHT_NAME">
 			<Text>Heavy Knight</Text>
-		</Replace>
-		<Replace Tag="LOC_UNIT_HARQUEBUSIER_DESCRIPTION">
-			<Text>High Medieval era ranged cavalry unit.</Text>
 		</Replace>
 	</BaseGameText>
 </GameData>
