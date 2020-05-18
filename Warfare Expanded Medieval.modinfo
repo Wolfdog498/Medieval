@@ -3,7 +3,7 @@
   <Properties>
     <Name>Warfare Expanded Medieval</Name>
     <Description>Warfare Expanded Medieval era expansion that adds early medieval and high medieval units to the medieval ers.</Description>
-    <Created>1584275011</Created>
+    <Created>1588408439</Created>
     <Teaser>Warfare Expanded Medieval era expansion.</Teaser>
     <Authors>Wolfdog (Hizkiyahu), KrumStrashni, siau2tie1 and Zipprian</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
@@ -22,7 +22,7 @@
       <Properties>
         <LoadOrder>14</LoadOrder>
       </Properties>
-      <File>WE_Medieval_units_icons.xml</File>
+      <File>WE_Medieval_Icons_Units.sql</File>
     </UpdateIcons>
     <UpdateText id="Text">
       <Properties>
@@ -32,8 +32,8 @@
     </UpdateText>
   </InGameActions>
   <Files>
+    <File>WE_Medieval_Icons_Units.sql</File>
     <File>WE_Medieval_Text_en_US.xml</File>
     <File>WE_Medieval_units.sql</File>
-    <File>WE_Medieval_units_icons.xml</File>
   </Files>
 </Mod>
